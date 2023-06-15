@@ -1,9 +1,7 @@
-import { styled } from '../../styles';
-import { Text } from '../Text';
+import { styled } from '../../styles'
+import { Text } from '../Text'
 
-export const MultiStepContainer = styled('div', {
-
-})
+export const MultiStepContainer = styled('div', {})
 
 export const Label =styled(Text, {
   color: '$gray200',
@@ -14,8 +12,8 @@ export const Label =styled(Text, {
 })
 
 export const Steps = styled('div', {
-  gridTemplateColumns: 'repeat(var (--steps-size), 1fr)',
   display: 'grid',
+  gridTemplateColumns: 'repeat(var(--steps-size), 1fr)',
   gap: '$2',
   marginTop: '$1'
 })

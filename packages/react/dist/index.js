@@ -489,8 +489,8 @@ var Label = styled(Text, {
   }
 });
 var Steps = styled("div", {
-  gridTemplateColumns: "repeat(var (--steps-size), 1fr)",
   display: "grid",
+  gridTemplateColumns: "repeat(var(--steps-size), 1fr)",
   gap: "$2",
   marginTop: "$1"
 });
