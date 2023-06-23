@@ -9,7 +9,7 @@ export default {
     children:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, possimus quos ipsa quae illo et necessitatibus perspiciatis rem voluptatum iusto accusantium quisquam voluptas aperiam expedita eligendi? Officiis laboriosam enim et!',
   },
-  argTypes:{
+  argTypes: {
     size: {
       options: [
         'xxs',
@@ -24,13 +24,13 @@ export default {
         '6xl',
         '7xl',
         '8xl',
-        '9xl'
+        '9xl',
       ],
       control: {
-        type: 'inline-radio'
+        type: 'inline-radio',
       },
     },
-  }
+  },
 } as Meta<TextProps>
 
 export const Primary: StoryObj<TextProps> = {}
@@ -41,4 +41,3 @@ export const CustomTag: StoryObj<TextProps> = {
     as: 'strong',
   },
 }
-

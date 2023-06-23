@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { Button, ButtonProps } from '@ignite-ui/react'
 import { ArrowRight } from 'phosphor-react'
-import React from 'react';
+import React from 'react'
 
 export default {
   title: 'Form/Button',
@@ -16,24 +16,24 @@ export default {
     variant: {
       options: ['primary', 'secondary', 'tertiary'],
       control: {
-        type: 'inline-radio'
+        type: 'inline-radio',
       },
     },
     size: {
       options: ['sm', 'md'],
       control: {
-        type: 'inline-radio'
+        type: 'inline-radio',
       },
     },
     disabled: {
       control: {
-        type: 'boolean'
-      }
+        type: 'boolean',
+      },
     },
     onClick: {
-      action: 'click'
-    }
-  }
+      action: 'click',
+    },
+  },
 } as Meta<ButtonProps>
 
 export const Primary: StoryObj<ButtonProps> = {}

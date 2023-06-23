@@ -9,12 +9,12 @@ export default {
     alt: 'Augusto Gomes',
   },
   argTypes: {
-    src:{
+    src: {
       control: {
-        type: 'text'
-      }
-    }
-  }
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
