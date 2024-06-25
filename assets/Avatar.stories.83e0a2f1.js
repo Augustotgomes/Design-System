@@ -1,0 +1,2 @@
+import{A as t}from"./index.3bf94dde.js";import"./index.c56a1c95.js";import"./iframe.06e5e7c5.js";import"./index.be9db160.js";import"./jsx-runtime.122da78b.js";const p={title:"Data Display/Avatar",component:t,args:{src:"https://github.com/Augustotgomes.png",alt:"Augusto Gomes"},argTypes:{src:{control:{type:"text"}}}},c={},e={args:{src:void 0}},i=["Primary","Fallback"];export{e as Fallback,c as Primary,i as __namedExportsOrder,p as default};
+//# sourceMappingURL=Avatar.stories.83e0a2f1.js.map
