@@ -1,5 +1,11 @@
 # @augustogomes-ui/tokens
 
+## 2.2.0
+
+### Minor Changes
+
+- add colors for inside
+
 ## 2.1.0
 
 ### Minor Changes

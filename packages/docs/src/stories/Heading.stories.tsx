@@ -9,6 +9,12 @@ export default {
     children: 'Custom Title',
   },
   argTypes: {
+    variant: {
+      options: ['primary', 'inside'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
     size: {
       options: ['sm', 'md', 'lg', '2xl', '4xl', '5xl', '6xl'],
       control: {
@@ -19,6 +25,11 @@ export default {
 } as Meta<HeadingProps>
 
 export const Primary: StoryObj<HeadingProps> = {}
+export const Inside: StoryObj<HeadingProps> = {
+  args: {
+    variant: 'inside',
+  },
+}
 
 export const CustomTag: StoryObj<HeadingProps> = {
   args: {

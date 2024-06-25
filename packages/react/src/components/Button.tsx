@@ -73,6 +73,19 @@ export const Button = styled('button', {
           backgroundColor: '$gray600',
         },
       },
+
+      inside: {
+        color: 'White',
+        background: '$inside100',
+
+        '&:not(:disabled):hover': {
+          opacity: 0.2,
+        },
+
+        '&:disabled': {
+          backgroundColor: '$gray200',
+        },
+      },
     },
 
     size: {

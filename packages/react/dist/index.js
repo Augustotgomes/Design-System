@@ -95,7 +95,8 @@ var colors = {
   ignite500: "#00875F",
   ignite700: "#015F43",
   ignite900: "#00291D",
-  igniteTeste: "#00291D"
+  inside100: "#F040FA",
+  inside200: "#1F5DE0"
 };
 var space = {
   1: "0.25rem",
@@ -225,6 +226,14 @@ var Heading = styled("h2", {
   margin: 0,
   color: "$gray100",
   variants: {
+    variant: {
+      primary: {
+        color: "$gray100"
+      },
+      inside: {
+        color: "$inside200"
+      }
+    },
     size: {
       sm: { fontSize: "$xl" },
       md: { fontSize: "$2xl" },
@@ -237,6 +246,7 @@ var Heading = styled("h2", {
     }
   },
   defaultVariants: {
+    variant: "primary",
     size: "md"
   }
 });
@@ -341,6 +351,16 @@ var Button = styled("button", {
         },
         "&:disabled": {
           backgroundColor: "$gray600"
+        }
+      },
+      inside: {
+        color: "White",
+        background: "$inside100",
+        "&:not(:disabled):hover": {
+          opacity: 0.2
+        },
+        "&:disabled": {
+          backgroundColor: "$gray200"
         }
       }
     },

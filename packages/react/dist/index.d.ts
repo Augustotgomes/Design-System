@@ -27,6 +27,8 @@ declare const styled: <Type extends _stitches_react_types_util.Function | keyof 
         ignite500: string;
         ignite700: string;
         ignite900: string;
+        inside100: string;
+        inside200: string;
     };
     fontSizes: {
         xxs: string;
@@ -239,6 +241,8 @@ declare const styled: <Type extends _stitches_react_types_util.Function | keyof 
         ignite500: string;
         ignite700: string;
         ignite900: string;
+        inside100: string;
+        inside200: string;
     };
     fontSizes: {
         xxs: string;
@@ -443,6 +447,8 @@ declare const css: <Composers extends (string | _stitches_react_types_util.Funct
         ignite500: string;
         ignite700: string;
         ignite900: string;
+        inside100: string;
+        inside200: string;
     };
     fontSizes: {
         xxs: string;
@@ -662,6 +668,8 @@ declare const globalCss: <Styles extends {
             ignite500: string;
             ignite700: string;
             ignite900: string;
+            inside100: string;
+            inside200: string;
         };
         fontSizes: {
             xxs: string;
@@ -864,6 +872,8 @@ declare const globalCss: <Styles extends {
         ignite500: string;
         ignite700: string;
         ignite900: string;
+        inside100: string;
+        inside200: string;
     };
     fontSizes: {
         xxs: string;
@@ -1067,6 +1077,8 @@ declare const keyframes: (style: {
             ignite500: string;
             ignite700: string;
             ignite900: string;
+            inside100: string;
+            inside200: string;
         };
         fontSizes: {
             xxs: string;
@@ -1277,6 +1289,8 @@ declare const theme: string & {
         ignite500: _stitches_react_types_theme.Token<"ignite500", string, "colors", "">;
         ignite700: _stitches_react_types_theme.Token<"ignite700", string, "colors", "">;
         ignite900: _stitches_react_types_theme.Token<"ignite900", string, "colors", "">;
+        inside100: _stitches_react_types_theme.Token<"inside100", string, "colors", "">;
+        inside200: _stitches_react_types_theme.Token<"inside200", string, "colors", "">;
     };
     fontSizes: {
         xxs: _stitches_react_types_theme.Token<"xxs", string, "fontSizes", "">;
@@ -1350,6 +1364,8 @@ declare const createTheme: <Argument0 extends string | ({
         ignite500?: string | number | boolean | undefined;
         ignite700?: string | number | boolean | undefined;
         ignite900?: string | number | boolean | undefined;
+        inside100?: string | number | boolean | undefined;
+        inside200?: string | number | boolean | undefined;
     } | undefined;
     fontSizes?: {
         xxs?: string | number | boolean | undefined;
@@ -1427,6 +1443,8 @@ declare const createTheme: <Argument0 extends string | ({
         ignite500?: string | number | boolean | undefined;
         ignite700?: string | number | boolean | undefined;
         ignite900?: string | number | boolean | undefined;
+        inside100?: string | number | boolean | undefined;
+        inside200?: string | number | boolean | undefined;
     } | undefined;
     fontSizes?: {
         xxs?: string | number | boolean | undefined;
@@ -1511,6 +1529,8 @@ declare const config: {
             ignite500: string;
             ignite700: string;
             ignite900: string;
+            inside100: string;
+            inside200: string;
         };
         fontSizes: {
             xxs: string;
@@ -1717,6 +1737,8 @@ declare const Box: _stitches_react_types_styled_component.StyledComponent<"div",
         ignite500: string;
         ignite700: string;
         ignite900: string;
+        inside100: string;
+        inside200: string;
     };
     fontSizes: {
         xxs: string;
@@ -1925,6 +1947,8 @@ declare const Text: _stitches_react_types_styled_component.StyledComponent<"p", 
         ignite500: string;
         ignite700: string;
         ignite900: string;
+        inside100: string;
+        inside200: string;
     };
     fontSizes: {
         xxs: string;
@@ -2116,6 +2140,7 @@ interface TextProps extends ComponentProps<typeof Text> {
 }
 
 declare const Heading: _stitches_react_types_styled_component.StyledComponent<"h2", {
+    variant?: "inside" | "primary" | undefined;
     size?: "sm" | "md" | "lg" | "2xl" | "4xl" | "5xl" | "6xl" | "3xl" | undefined;
 }, {}, _stitches_react_types_css_util.CSS<{}, {
     colors: {
@@ -2133,6 +2158,8 @@ declare const Heading: _stitches_react_types_styled_component.StyledComponent<"h
         ignite500: string;
         ignite700: string;
         ignite900: string;
+        inside100: string;
+        inside200: string;
     };
     fontSizes: {
         xxs: string;
@@ -2339,6 +2366,8 @@ declare const AvatarImage: _stitches_react_types_styled_component.StyledComponen
         ignite500: string;
         ignite700: string;
         ignite900: string;
+        inside100: string;
+        inside200: string;
     };
     fontSizes: {
         xxs: string;
@@ -2534,7 +2563,7 @@ declare namespace Avatar {
 }
 
 declare const Button: _stitches_react_types_styled_component.StyledComponent<"button", {
-    variant?: "primary" | "secondary" | "tertiary" | undefined;
+    variant?: "inside" | "primary" | "secondary" | "tertiary" | undefined;
     size?: "sm" | "md" | undefined;
 }, {}, _stitches_react_types_css_util.CSS<{}, {
     colors: {
@@ -2552,6 +2581,8 @@ declare const Button: _stitches_react_types_styled_component.StyledComponent<"bu
         ignite500: string;
         ignite700: string;
         ignite900: string;
+        inside100: string;
+        inside200: string;
     };
     fontSizes: {
         xxs: string;
@@ -2760,6 +2791,8 @@ declare const TextInputContainer: _stitches_react_types_styled_component.StyledC
         ignite500: string;
         ignite700: string;
         ignite900: string;
+        inside100: string;
+        inside200: string;
     };
     fontSizes: {
         xxs: string;
@@ -2962,6 +2995,8 @@ declare const Input: _stitches_react_types_styled_component.StyledComponent<"inp
         ignite500: string;
         ignite700: string;
         ignite900: string;
+        inside100: string;
+        inside200: string;
     };
     fontSizes: {
         xxs: string;
@@ -3171,6 +3206,8 @@ declare const TextArea: _stitches_react_types_styled_component.StyledComponent<"
         ignite500: string;
         ignite700: string;
         ignite900: string;
+        inside100: string;
+        inside200: string;
     };
     fontSizes: {
         xxs: string;
@@ -3376,6 +3413,8 @@ declare const CheckBoxContainer: _stitches_react_types_styled_component.StyledCo
         ignite500: string;
         ignite700: string;
         ignite900: string;
+        inside100: string;
+        inside200: string;
     };
     fontSizes: {
         xxs: string;

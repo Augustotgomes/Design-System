@@ -14,7 +14,7 @@ export default {
   },
   argTypes: {
     variant: {
-      options: ['primary', 'secondary', 'tertiary'],
+      options: ['primary', 'secondary', 'tertiary', 'inside'],
       control: {
         type: 'inline-radio',
       },
