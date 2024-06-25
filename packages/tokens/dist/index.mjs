@@ -13,7 +13,9 @@ var colors = {
   ignite300: "#00B37E",
   ignite500: "#00875F",
   ignite700: "#015F43",
-  ignite900: "#00291D"
+  ignite900: "#00291D",
+  inside100: "#F040FA",
+  inside200: "#1F5DE0"
 };
 
 // src/space.ts
